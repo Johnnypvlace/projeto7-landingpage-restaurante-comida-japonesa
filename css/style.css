@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+		padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html,body{
+    height: 100%;
+    background-color: #fffafa;
+}
+
+section .cabecalho{
+    padding:10px 2% 10px 2%;
+    background-color: #eeeeee;
+    color: #1c2d59;
+    text-align: center;
+}
+
+.fa{
+    font-style: italic;
+    padding-left: 20px;
+    font-size: 12px;
+}
+
+.faright{
+    float: right;
+    padding-left: 20px;
+    font-size: 12px;
+}
+
+header div.logo{
+    background-image: url(../images/logo_1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    height: 15vh;
+    width: 40vh;
+}
+
+.container{
+	width: 100%;
+	max-width: 1680px;
+	margin:0 auto;
+}
+
+.clear{
+	clear: both;
+}
+
+header nav{
+	float: right;
+    margin-top: -80px;
+}
+
+header nav ul{
+	list-style-type: none;
+}
+
+header nav ul li{
+	float: left;
+	font-size: 20px;
+	padding:0 20px;
+}
+
+header nav a{
+    color: #1c2d59;
+    text-decoration: none;
+}
+
+.slider{
+    position: relative;
+    width: 100%;
+    max-width: 1700px;
+    height: 80%;
+    max-height: 700px;
+    /*background-color: #ccc;*/
+    margin: 0 auto;
+}
+
+.slider img{
+    display: none;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+}
