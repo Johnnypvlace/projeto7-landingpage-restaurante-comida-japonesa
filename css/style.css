@@ -68,13 +68,13 @@ header nav a{
     text-decoration: none;
 }
 
+/*
 .slider{
     position: relative;
     width: 100%;
     max-width: 1700px;
     height: 80%;
     max-height: 700px;
-    /*background-color: #ccc;*/
     margin: 0 auto;
 }
 
@@ -86,4 +86,31 @@ header nav a{
     max-width: 100%;
     max-height: 100%;
     position: absolute;
+}
+*/
+
+.slider{
+    position: relative;
+    width: 100%;
+    max-width: 1700px;
+    height: 80%;
+    max-height: 700px;
+    margin: 0 auto;
+}
+
+.slider img{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+}
+
+
+
+section.chamada-1, .container{
+    position: relative;
+    max-width: 1700px;
+    background-color: green;
 }

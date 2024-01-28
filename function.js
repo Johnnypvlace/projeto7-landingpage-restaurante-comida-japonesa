@@ -1,4 +1,4 @@
-$(function(){
+/*$(function(){
 
     initSlider();
     function initSlider(){
@@ -8,4 +8,4 @@ $(function(){
             }
     })
 
-});
+});*/
