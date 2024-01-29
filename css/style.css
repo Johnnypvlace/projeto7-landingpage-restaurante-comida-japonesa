@@ -110,7 +110,16 @@ header nav a{
 
 
 section.chamada-1, .container{
+    text-align: center;
     position: relative;
     max-width: 1700px;
-    background-color: green;
+    max-width: 1680px;
+	margin:0 auto;
+}
+
+.w25{
+    width: 20%;
+    display: inline-block;
+    margin-top: 15px;
+    border: 2px solid #eeeeee;
 }
