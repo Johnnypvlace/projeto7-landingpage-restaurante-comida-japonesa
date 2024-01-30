@@ -123,3 +123,41 @@ section.chamada-1, .container{
     margin-top: 15px;
     border: 2px solid #eeeeee;
 }
+
+.valores{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+  }
+  
+.chamada-3{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    top: 20px;
+    transform: translateX(0%);
+    max-width: 1300px;
+    margin: 0 auto;
+    font-size: 17px;
+}
+
+.chamada-3 ul, li{
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+  
+.plano-1, .plano-2, .plano-3, .plano-4{
+    border: 2px solid rgb(200,200,200);
+    padding: 10px;
+    color: white;
+    background-color: #d64552;
+    height: 245px;
+    width: 300px;
+    max-width: 300px;
+    
+}
+
+
+
+
+  
