@@ -154,10 +154,34 @@ section.chamada-1, .container{
     height: 245px;
     width: 300px;
     max-width: 300px;
-    
 }
 
+section.chamada-4{
+    transform: translateX(0%);
+    max-width: 1275px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
 
-
-
+.chamada-4 h2{
+    background-color: #d64552;
+    width: 50%;
+    float: left;
+    height: 30vh;
+    padding: 25px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .img-1{
+    background-image: url(../images/img-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25% 55%;
+    width: 50%;
+    float: right;
+    height: 30vh;
+    margin-bottom: 40px;
+  }
   
