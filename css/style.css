@@ -156,16 +156,16 @@ section.chamada-1, .container{
     max-width: 300px;
 }
 
-section.chamada-4{
+section.chamada-5{
     transform: translateX(0%);
     max-width: 1275px;
     margin: 0 auto;
     margin-top: 50px;
 }
 
-.chamada-4 h2{
+.chamada-5 h2{
     background-color: #d64552;
-    width: 50%;
+    width: 43%;
     float: left;
     height: 30vh;
     padding: 25px;
@@ -179,9 +179,45 @@ section.chamada-4{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 25% 55%;
-    width: 50%;
+    width: 57%;
     float: right;
     height: 30vh;
     margin-bottom: 40px;
-  }
-  
+}
+
+section.chamada-4{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1276px;
+    top: 60px;
+    color: white;
+    font-size: 13px;
+}
+
+.box-chamada-4{
+    background-image: url(../images/img-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 1276px;
+    float: right;
+    height: 50vh;
+    margin-bottom: 100px;
+}
+
+.chamada-4 h2{
+  margin-left: 50px;
+  background-color: #d64552;
+  width: 40%;
+  max-width: 500px;
+  float: left;
+  height: 50vh;
+  padding: 25px;
+  opacity: 95%;
+  display: flex;
+  align-items: center;
+}
+
+
