@@ -221,3 +221,50 @@ section.chamada-4{
 }
 
 
+section.chamada-6{
+    transform: translateX(0%);
+    max-width: 1275px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.chamada-6 h2{
+    background-color: #d64552;
+    width: 43%;
+    float: left;
+    height: 90vh;
+    padding: 25px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+  }
+  
+.img-3{
+    background-image: url(../images/img-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25% 55%;
+    width: 57%;
+    float: right;
+    height: 30vh;
+}
+
+.img-4{
+    background-image: url(../images/img-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25% 55%;
+    width: 57%;
+    float: right;
+    height: 30vh;
+}
+
+.img-5{
+    background-image: url(../images/img-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25% 55%;
+    width: 57%;
+    float: right;
+    height: 30vh;
+}
