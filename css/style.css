@@ -149,8 +149,8 @@ section.chamada-1, .container{
 .plano-1, .plano-2, .plano-3, .plano-4{
     border: 2px solid rgb(200,200,200);
     padding: 10px;
-    color: white;
-    background-color: #d64552;
+    color: #1c2d59;
+    background-color: #fe7214;
     height: 245px;
     width: 300px;
     max-width: 300px;
@@ -161,18 +161,26 @@ section.chamada-5{
     max-width: 1275px;
     margin: 0 auto;
     margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
 }
 
 .chamada-5 h2{
-    background-color: #d64552;
+    background-color: #ffa41b;
     width: 43%;
     float: left;
     height: 30vh;
+    color: #1c2d59;
     padding: 25px;
     margin-bottom: 40px;
+    font-size: 18px;
     display: flex;
     align-items: center;
-  }
+    
+}
   
   .img-1{
     background-image: url(../images/img-1.jpg);
@@ -192,7 +200,7 @@ section.chamada-4{
     margin: 0 auto;
     max-width: 1276px;
     top: 60px;
-    color: white;
+    color: #1c2d59;
     font-size: 13px;
 }
 
@@ -202,17 +210,16 @@ section.chamada-4{
     background-size: cover;
     width: 100%;
     max-width: 1276px;
-    float: right;
     height: 50vh;
     margin-bottom: 100px;
 }
 
 .chamada-4 h2{
   margin-left: 50px;
-  background-color: #d64552;
+  background-color: #ffa41b;
   width: 40%;
+  color: #1c2d59;
   max-width: 500px;
-  float: left;
   height: 50vh;
   padding: 25px;
   opacity: 95%;
@@ -220,19 +227,22 @@ section.chamada-4{
   align-items: center;
 }
 
-
 section.chamada-6{
     transform: translateX(0%);
     max-width: 1275px;
     margin: 0 auto;
     margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .chamada-6 h2{
-    background-color: #d64552;
+    background-color: #ffa41b;
     width: 43%;
     float: left;
-    height: 90vh;
+    height: 60vh;
+    color: #1c2d59;
     padding: 25px;
     margin-bottom: 40px;
     display: flex;
@@ -251,16 +261,6 @@ section.chamada-6{
 
 .img-4{
     background-image: url(../images/img-4.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 25% 55%;
-    width: 57%;
-    float: right;
-    height: 30vh;
-}
-
-.img-5{
-    background-image: url(../images/img-5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 25% 55%;
