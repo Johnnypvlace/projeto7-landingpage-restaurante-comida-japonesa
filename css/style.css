@@ -268,3 +268,34 @@ section.chamada-6{
     float: right;
     height: 30vh;
 }
+
+footer{
+    width: 100%;
+    background-color: #ffa41b;
+}
+
+footer ul li{
+    cursor: pointer;
+}
+
+
+.container-footer{
+    text-align: center;
+    font-size: 15px;
+}
+
+.w20{
+    width: 20%;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.container-footer p{
+    color: #1c2d59;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.bloco-4{
+    display: inline-block;
+}
