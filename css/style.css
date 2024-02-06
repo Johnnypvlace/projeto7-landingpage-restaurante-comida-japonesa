@@ -15,6 +15,7 @@ section .cabecalho{
     background-color: #eeeeee;
     color: #1c2d59;
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .fa{
@@ -27,6 +28,10 @@ section .cabecalho{
     float: right;
     padding-left: 20px;
     font-size: 12px;
+}
+
+.fa-phone{
+    margin-top: 4px;
 }
 
 header div.logo{
@@ -297,5 +302,91 @@ footer ul li{
 }
 
 .bloco-4{
-    display: inline-block;
+    
+}
+
+.itens-footer{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+@media screen and (max-width: 1115px){
+
+    .fa{
+        padding-left: 10px;
+        font-size: 10px;
+    }
+    
+    .faright{
+        padding-left: 10px;
+        font-size: 10px;
+    }
+
+    nav{
+        font-size: 10px;
+    }
+
+    section .valores, .chamada-3, .plano-1{
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 950px){
+
+    header nav ul li{
+        font-size: 15px;
+        margin-top: 10px;
+        padding:0 10px;
+    }
+
+    .fa{
+        padding-left: 10px;
+        font-size: 9px;
+    }
+    
+    .faright{
+        padding-left: 10px;
+        font-size: 9px;
+    }
+
+    .chamada-4, .box-chamada-4, .chamada-5, .chamada-6{
+        font-size: 12px;
+    }
+
+    header div.logo{
+        background-image: url(../images/logo_1_pequena.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 10px;
+        height: 14vh;
+        width: 38vh;
+    }
+
+}
+
+@media screen and (max-width: 855px){
+
+    header nav ul li{
+        font-size: 13px;
+        display: inline-block;
+        padding:0 7px;
+    }
+
+    .fa{
+        padding-left: 10px;
+        font-size: 8px;
+    }
+    
+    .faright{
+        padding-left: 10px;
+        font-size: 8px;
+    }
+
+    section .valores, .chamada-3, .plano-1{
+        font-size: 13px;
+    }
 }
